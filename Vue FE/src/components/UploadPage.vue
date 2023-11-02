@@ -1,7 +1,7 @@
 
 <template>
   <div class="bg">
-  <button @click="goToChatBox">Chat Bot</button>
+  <button @click="goToChatBox">Marshall Knowledge Base</button>
   <div class="chatbox-container">
   <div class="container">
     <h1>Upload Content</h1>

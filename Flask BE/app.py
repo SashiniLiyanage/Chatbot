@@ -134,7 +134,6 @@ def create_conversation(pdf_path):
 
 if __name__ == '__main__':
     os.makedirs(os.getenv('UPLOAD_FOLDER'), exist_ok=True)
-    chat_history = []
     conversation_chain = None
     create_conversation(os.getenv('UPLOAD_FOLDER'))
     app.run(debug=True)

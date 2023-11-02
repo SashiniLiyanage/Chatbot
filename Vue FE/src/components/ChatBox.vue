@@ -4,7 +4,7 @@
 <button @click="goToUploadPage">Upload Content</button>
 <div class="chatbox-container">
 <div class="container">
-  <h1>Marshall Chat Bot</h1>
+  <h1>Marshall Knowledge Base</h1>
 <div class="messageBox mt-8 chat_area"  ref="scrollableDiv">
   <template v-for="(message, index) in messages" :key="index">
     <div :class="message.from == 'user' ? 'messageFromUser' : 'messageFromBot'">
